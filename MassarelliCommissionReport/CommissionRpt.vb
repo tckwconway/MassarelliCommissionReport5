@@ -1,11 +1,6 @@
 Imports System.Data.SqlClient
-Imports System.Data
 Imports System.Text
-Imports System.ComponentModel
 Imports excel = Microsoft.Office.Interop.Excel
-Imports System.Drawing
-Imports System.Configuration
-Imports System.Windows.Forms.ContextMenu
 
 Public Class CommissionRpt
 

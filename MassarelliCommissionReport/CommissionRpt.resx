@@ -317,12 +317,12 @@
         EZws+WEHRZsarhxrgPIBs36v0e1p9d79lrYfrd1hWjy/oO5M6kHw55LtdPuFOBvy9wdCfQ1/Vkext0Ja
         ugpj8tNQ/tA7sw+Y1DdDOS4hATUkgNn9VwhOe3+U1u4w7fxfWHfIIyjCMXphDaritZCycU6NQFdjA2Vg
         xZS0xBM/3KK6/qjuyvFGgtcSvOo3qTsDhzwMXWVCErAA21b86QBfT2Mdq7JEoJQWr8TkPUr1j+quHKsj
-        +HVKPb16fmXdmdQzcCYa0gxQFTcfHpzZe611NNawpCL91+0k4OUI3fQd1f0N/HFVIMEX4KRo3gRPR2MT
+        +HVKPb16fmXdmdQzcCYa0gxQFTcfHpzZe611NNawpCK91+0k4OUI3fQd1f0N/HFVIMEX4KRo3gRPR2MT
         b8ksH1ZbsdvF9q/pPX/AFa1F9J4vpPd8wTJ609uTrQrRnEtPanrHNdJT6q3PW6h9vv5/+Hx1ku6M0y1W
         zzvTdEzdGXgl3T7G/89XONoagVztWZ4saZnnnNYCl9OVWYJXrfTvVkshvefz6T2fT+/5N/AcBm5FcPL2
         /1gybNQx8FQGbkihTwL01PDqxCUz8EX/hl8V/+VVWuD7tUI9ja0WizQ+tdSe5UIbcfpUigS/C+SzPtL9
         K2s1W0sjgPkDio3vID4109L4xGgea72DCa3jN0ckYml86c36oweHpWuty3IQ6M1ystGd5fwugr9k1nKB
-        IYu7yYH13r8Ah3KSpO9zPZAAAAAASUVORK5CYII=
+        IYu7yYH13r8AhPCSo+u62zUAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="ToolStripButtonAddItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -615,6 +615,13 @@
         fDSNXQtgF/89gMPheEtCduhwON79BfzWoK1MgzidAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="ButtonGetOrder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAElJREFUOE/NjFEGADAMxXqCHnT3/9+Ejpky62MWSnkS+xNv3uOtQUCKzEA5sgZK
+        kT1wHckCXMxnMpmL+YwkgySDJIMkgyQ/xmwATzc/02ehjFUAAAAASUVORK5CYII=
+</value>
+  </data>
   <metadata name="Selected.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -639,13 +646,6 @@
   <metadata name="TotalSalesAmt.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="ButtonGetOrder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        dAAAEnQB3mYfeAAAAElJREFUOE/NjFEGADAMxXqCHnT3/9+Ejpky62MWSnkS+xNv3uOtQUCKzEA5sgZK
-        kT1wHckCXMxnMpmL+YwkgySDJIMkgyQ/xmwATzc/02ehjFUAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="btnRecalculateCommission.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS

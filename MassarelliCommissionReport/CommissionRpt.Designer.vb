@@ -52,31 +52,31 @@ Partial Class CommissionRpt
         Dim PaymentDateLabel As System.Windows.Forms.Label
         Dim Label3 As System.Windows.Forms.Label
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CommissionRpt))
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle50 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle40 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle41 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle42 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle43 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle44 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle45 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle46 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle47 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle48 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle49 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.CommissionObjBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
         Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
         Me.CommissionObjBindingSource = New System.Windows.Forms.BindingSource(Me.components)
@@ -1403,14 +1403,14 @@ Partial Class CommissionRpt
         Me.CommissionObjDataGridView.AllowUserToResizeRows = False
         Me.CommissionObjDataGridView.AutoGenerateColumns = False
         Me.CommissionObjDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
-        DataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.CommissionObjDataGridView.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.CommissionObjDataGridView.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.CommissionObjDataGridView.ColumnHeadersHeight = 55
         Me.CommissionObjDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Selected, Me.Modified, Me.ValidatedComm, Me.SalesPersonNumber, Me.RepGroup, Me.SalesPersonName, Me.CusNo, Me.OrderNo, Me.InvoiceNumber, Me.ShipToName, Me.ShipToState, Me.BillToState, Me.BatchID, Me.OrderDate, Me.ShipDate, Me.PaymentDate, Me.NetSalesAmount, Me.DiscountAmount, Me.PickupAllowanceAmount, Me.FreightPercent, Me.MiscAmt, Me.TotalSalesAmt, Me.FreightAmount, Me.AmountPaid, Me.CommissionPercent, Me.SS12, Me.CommissionAmount, Me.Reference})
         Me.CommissionObjDataGridView.DataSource = Me.CommissionObjBindingSource
@@ -1419,8 +1419,8 @@ Partial Class CommissionRpt
         Me.CommissionObjDataGridView.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.CommissionObjDataGridView.Name = "CommissionObjDataGridView"
         Me.CommissionObjDataGridView.RowHeadersWidth = 22
-        DataGridViewCellStyle50.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CommissionObjDataGridView.RowsDefaultCellStyle = DataGridViewCellStyle50
+        DataGridViewCellStyle25.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CommissionObjDataGridView.RowsDefaultCellStyle = DataGridViewCellStyle25
         Me.CommissionObjDataGridView.Size = New System.Drawing.Size(1291, 457)
         Me.CommissionObjDataGridView.TabIndex = 0
         Me.CommissionObjDataGridView.TabStop = False
@@ -1437,8 +1437,8 @@ Partial Class CommissionRpt
         'Modified
         '
         Me.Modified.DataPropertyName = "Modified"
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.Modified.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Modified.DefaultCellStyle = DataGridViewCellStyle2
         Me.Modified.HeaderText = "Mod"
         Me.Modified.MinimumWidth = 8
         Me.Modified.Name = "Modified"
@@ -1449,10 +1449,10 @@ Partial Class CommissionRpt
         'ValidatedComm
         '
         Me.ValidatedComm.DataPropertyName = "ValidatedComm"
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.ControlLight
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ValidatedComm.DefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.ControlLight
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ValidatedComm.DefaultCellStyle = DataGridViewCellStyle3
         Me.ValidatedComm.HeaderText = "Done"
         Me.ValidatedComm.MinimumWidth = 8
         Me.ValidatedComm.Name = "ValidatedComm"
@@ -1465,9 +1465,9 @@ Partial Class CommissionRpt
         'SalesPersonNumber
         '
         Me.SalesPersonNumber.DataPropertyName = "SalesPersonNumber"
-        DataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SalesPersonNumber.DefaultCellStyle = DataGridViewCellStyle29
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SalesPersonNumber.DefaultCellStyle = DataGridViewCellStyle4
         Me.SalesPersonNumber.HeaderText = "Rep#"
         Me.SalesPersonNumber.MinimumWidth = 8
         Me.SalesPersonNumber.Name = "SalesPersonNumber"
@@ -1494,10 +1494,10 @@ Partial Class CommissionRpt
         'CusNo
         '
         Me.CusNo.DataPropertyName = "CusNo"
-        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle30.Format = "N0"
-        DataGridViewCellStyle30.NullValue = Nothing
-        Me.CusNo.DefaultCellStyle = DataGridViewCellStyle30
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle5.Format = "N0"
+        DataGridViewCellStyle5.NullValue = Nothing
+        Me.CusNo.DefaultCellStyle = DataGridViewCellStyle5
         Me.CusNo.HeaderText = "Cust No"
         Me.CusNo.MinimumWidth = 8
         Me.CusNo.Name = "CusNo"
@@ -1507,8 +1507,8 @@ Partial Class CommissionRpt
         'OrderNo
         '
         Me.OrderNo.DataPropertyName = "OrderNo"
-        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.OrderNo.DefaultCellStyle = DataGridViewCellStyle31
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.OrderNo.DefaultCellStyle = DataGridViewCellStyle6
         Me.OrderNo.FillWeight = 65.0!
         Me.OrderNo.HeaderText = "Order No"
         Me.OrderNo.MinimumWidth = 8
@@ -1518,9 +1518,9 @@ Partial Class CommissionRpt
         'InvoiceNumber
         '
         Me.InvoiceNumber.DataPropertyName = "InvoiceNumber"
-        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle32.NullValue = "0"
-        Me.InvoiceNumber.DefaultCellStyle = DataGridViewCellStyle32
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle7.NullValue = "0"
+        Me.InvoiceNumber.DefaultCellStyle = DataGridViewCellStyle7
         Me.InvoiceNumber.HeaderText = "Invoice No"
         Me.InvoiceNumber.MinimumWidth = 8
         Me.InvoiceNumber.Name = "InvoiceNumber"
@@ -1529,8 +1529,8 @@ Partial Class CommissionRpt
         'ShipToName
         '
         Me.ShipToName.DataPropertyName = "ShipToName"
-        DataGridViewCellStyle33.Font = New System.Drawing.Font("Segoe UI", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ShipToName.DefaultCellStyle = DataGridViewCellStyle33
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ShipToName.DefaultCellStyle = DataGridViewCellStyle8
         Me.ShipToName.HeaderText = "Ship To Name"
         Me.ShipToName.MinimumWidth = 8
         Me.ShipToName.Name = "ShipToName"
@@ -1539,8 +1539,8 @@ Partial Class CommissionRpt
         'ShipToState
         '
         Me.ShipToState.DataPropertyName = "ShipToState"
-        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.ShipToState.DefaultCellStyle = DataGridViewCellStyle34
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.ShipToState.DefaultCellStyle = DataGridViewCellStyle9
         Me.ShipToState.HeaderText = "Ship State"
         Me.ShipToState.MinimumWidth = 8
         Me.ShipToState.Name = "ShipToState"
@@ -1549,8 +1549,8 @@ Partial Class CommissionRpt
         'BillToState
         '
         Me.BillToState.DataPropertyName = "BillToState"
-        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.BillToState.DefaultCellStyle = DataGridViewCellStyle35
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.BillToState.DefaultCellStyle = DataGridViewCellStyle10
         Me.BillToState.HeaderText = "Bill State"
         Me.BillToState.MinimumWidth = 8
         Me.BillToState.Name = "BillToState"
@@ -1569,10 +1569,10 @@ Partial Class CommissionRpt
         'OrderDate
         '
         Me.OrderDate.DataPropertyName = "OrderDate"
-        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle36.Format = "d"
-        DataGridViewCellStyle36.NullValue = Nothing
-        Me.OrderDate.DefaultCellStyle = DataGridViewCellStyle36
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle11.Format = "d"
+        DataGridViewCellStyle11.NullValue = Nothing
+        Me.OrderDate.DefaultCellStyle = DataGridViewCellStyle11
         Me.OrderDate.HeaderText = "Order Date"
         Me.OrderDate.MinimumWidth = 8
         Me.OrderDate.Name = "OrderDate"
@@ -1582,9 +1582,9 @@ Partial Class CommissionRpt
         'ShipDate
         '
         Me.ShipDate.DataPropertyName = "ShipDate"
-        DataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle37.Format = "d"
-        Me.ShipDate.DefaultCellStyle = DataGridViewCellStyle37
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle12.Format = "d"
+        Me.ShipDate.DefaultCellStyle = DataGridViewCellStyle12
         Me.ShipDate.HeaderText = "Ship Date"
         Me.ShipDate.MinimumWidth = 8
         Me.ShipDate.Name = "ShipDate"
@@ -1594,9 +1594,9 @@ Partial Class CommissionRpt
         'PaymentDate
         '
         Me.PaymentDate.DataPropertyName = "PaymentDate"
-        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle38.Format = "d"
-        Me.PaymentDate.DefaultCellStyle = DataGridViewCellStyle38
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle13.Format = "d"
+        Me.PaymentDate.DefaultCellStyle = DataGridViewCellStyle13
         Me.PaymentDate.HeaderText = "Payment Date"
         Me.PaymentDate.MinimumWidth = 8
         Me.PaymentDate.Name = "PaymentDate"
@@ -1605,9 +1605,9 @@ Partial Class CommissionRpt
         'NetSalesAmount
         '
         Me.NetSalesAmount.DataPropertyName = "NetSalesAmount"
-        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle39.Format = "n2"
-        Me.NetSalesAmount.DefaultCellStyle = DataGridViewCellStyle39
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle14.Format = "n2"
+        Me.NetSalesAmount.DefaultCellStyle = DataGridViewCellStyle14
         Me.NetSalesAmount.HeaderText = "Total Sales Amt"
         Me.NetSalesAmount.MinimumWidth = 8
         Me.NetSalesAmount.Name = "NetSalesAmount"
@@ -1616,9 +1616,9 @@ Partial Class CommissionRpt
         'DiscountAmount
         '
         Me.DiscountAmount.DataPropertyName = "DiscountAmount"
-        DataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle40.Format = "n2"
-        Me.DiscountAmount.DefaultCellStyle = DataGridViewCellStyle40
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle15.Format = "n2"
+        Me.DiscountAmount.DefaultCellStyle = DataGridViewCellStyle15
         Me.DiscountAmount.HeaderText = "Disc"
         Me.DiscountAmount.MinimumWidth = 8
         Me.DiscountAmount.Name = "DiscountAmount"
@@ -1627,9 +1627,9 @@ Partial Class CommissionRpt
         'PickupAllowanceAmount
         '
         Me.PickupAllowanceAmount.DataPropertyName = "PickupAllowanceAmount"
-        DataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle41.Format = "n2"
-        Me.PickupAllowanceAmount.DefaultCellStyle = DataGridViewCellStyle41
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle16.Format = "n2"
+        Me.PickupAllowanceAmount.DefaultCellStyle = DataGridViewCellStyle16
         Me.PickupAllowanceAmount.HeaderText = "Pickup Allowance"
         Me.PickupAllowanceAmount.MinimumWidth = 8
         Me.PickupAllowanceAmount.Name = "PickupAllowanceAmount"
@@ -1638,9 +1638,9 @@ Partial Class CommissionRpt
         'FreightPercent
         '
         Me.FreightPercent.DataPropertyName = "FreightPercent"
-        DataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle42.Format = "p"
-        Me.FreightPercent.DefaultCellStyle = DataGridViewCellStyle42
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle17.Format = "p"
+        Me.FreightPercent.DefaultCellStyle = DataGridViewCellStyle17
         Me.FreightPercent.HeaderText = "Frgt %"
         Me.FreightPercent.MinimumWidth = 8
         Me.FreightPercent.Name = "FreightPercent"
@@ -1649,9 +1649,9 @@ Partial Class CommissionRpt
         'MiscAmt
         '
         Me.MiscAmt.DataPropertyName = "MiscAmt"
-        DataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle43.Format = "n2"
-        Me.MiscAmt.DefaultCellStyle = DataGridViewCellStyle43
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle18.Format = "n2"
+        Me.MiscAmt.DefaultCellStyle = DataGridViewCellStyle18
         Me.MiscAmt.HeaderText = "Misc Amt"
         Me.MiscAmt.MinimumWidth = 8
         Me.MiscAmt.Name = "MiscAmt"
@@ -1660,10 +1660,10 @@ Partial Class CommissionRpt
         'TotalSalesAmt
         '
         Me.TotalSalesAmt.DataPropertyName = "TotalSalesAmt"
-        DataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle44.Format = "N2"
-        DataGridViewCellStyle44.NullValue = Nothing
-        Me.TotalSalesAmt.DefaultCellStyle = DataGridViewCellStyle44
+        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle19.Format = "N2"
+        DataGridViewCellStyle19.NullValue = Nothing
+        Me.TotalSalesAmt.DefaultCellStyle = DataGridViewCellStyle19
         Me.TotalSalesAmt.HeaderText = "Net Sales Amt"
         Me.TotalSalesAmt.MinimumWidth = 8
         Me.TotalSalesAmt.Name = "TotalSalesAmt"
@@ -1672,9 +1672,9 @@ Partial Class CommissionRpt
         'FreightAmount
         '
         Me.FreightAmount.DataPropertyName = "FreightAmount"
-        DataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle45.Format = "n2"
-        Me.FreightAmount.DefaultCellStyle = DataGridViewCellStyle45
+        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle20.Format = "n2"
+        Me.FreightAmount.DefaultCellStyle = DataGridViewCellStyle20
         Me.FreightAmount.HeaderText = "Freight Amt"
         Me.FreightAmount.MinimumWidth = 8
         Me.FreightAmount.Name = "FreightAmount"
@@ -1684,9 +1684,9 @@ Partial Class CommissionRpt
         'AmountPaid
         '
         Me.AmountPaid.DataPropertyName = "AmountPaid"
-        DataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle46.Format = "n2"
-        Me.AmountPaid.DefaultCellStyle = DataGridViewCellStyle46
+        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle21.Format = "n2"
+        Me.AmountPaid.DefaultCellStyle = DataGridViewCellStyle21
         Me.AmountPaid.HeaderText = "Comm Net"
         Me.AmountPaid.MinimumWidth = 8
         Me.AmountPaid.Name = "AmountPaid"
@@ -1695,9 +1695,9 @@ Partial Class CommissionRpt
         'CommissionPercent
         '
         Me.CommissionPercent.DataPropertyName = "CommissionPercent"
-        DataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle47.Format = "p"
-        Me.CommissionPercent.DefaultCellStyle = DataGridViewCellStyle47
+        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle22.Format = "p"
+        Me.CommissionPercent.DefaultCellStyle = DataGridViewCellStyle22
         Me.CommissionPercent.HeaderText = "Comm %"
         Me.CommissionPercent.MinimumWidth = 8
         Me.CommissionPercent.Name = "CommissionPercent"
@@ -1706,9 +1706,9 @@ Partial Class CommissionRpt
         'SS12
         '
         Me.SS12.DataPropertyName = "SS12"
-        DataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle48.Format = "n2"
-        Me.SS12.DefaultCellStyle = DataGridViewCellStyle48
+        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle23.Format = "n2"
+        Me.SS12.DefaultCellStyle = DataGridViewCellStyle23
         Me.SS12.HeaderText = "SS12"
         Me.SS12.MinimumWidth = 8
         Me.SS12.Name = "SS12"
@@ -1718,9 +1718,9 @@ Partial Class CommissionRpt
         'CommissionAmount
         '
         Me.CommissionAmount.DataPropertyName = "CommissionAmount"
-        DataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle49.Format = "n2"
-        Me.CommissionAmount.DefaultCellStyle = DataGridViewCellStyle49
+        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle24.Format = "n2"
+        Me.CommissionAmount.DefaultCellStyle = DataGridViewCellStyle24
         Me.CommissionAmount.HeaderText = "Comm Amount"
         Me.CommissionAmount.MinimumWidth = 8
         Me.CommissionAmount.Name = "CommissionAmount"
