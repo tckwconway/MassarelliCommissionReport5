@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Param_iCommDate" xml:space="preserve">
+    <value>icommdate</value>
+    <comment>IN Param:  Integer as date in YYYYMMDD</comment>
+  </data>
+  <data name="Param_iAmt_paid" xml:space="preserve">
+    <value>iAmt_paid</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iBatchID" xml:space="preserve">
+    <value>iBatchID</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iBill_to_state" xml:space="preserve">
+    <value>iBill_to_state</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iComm_amt" xml:space="preserve">
+    <value>iComm_amt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iComm_prct" xml:space="preserve">
+    <value>iComm_prct</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iCommID" xml:space="preserve">
+    <value>iCommID</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iCusNo" xml:space="preserve">
+    <value>iCusNo</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_idatasource" xml:space="preserve">
+    <value>idatasource</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iDisc_amt" xml:space="preserve">
+    <value>iDisc_amt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iFrt_amt" xml:space="preserve">
+    <value>iFrt_amt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iFrt_prcnt" xml:space="preserve">
+    <value>iFrt_prcnt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iInv_no" xml:space="preserve">
+    <value>iInv_no</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iNet_sls_amt" xml:space="preserve">
+    <value>iNet_sls_amt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iOrder_dt" xml:space="preserve">
+    <value>iOrder_dt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iPickup_allow_amt" xml:space="preserve">
+    <value>iPickup_allow_amt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iPymt_dt" xml:space="preserve">
+    <value>iPymt_dt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iReference" xml:space="preserve">
+    <value>iReference</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iRep_group" xml:space="preserve">
+    <value>iRep_group</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iRowState" xml:space="preserve">
+    <value>iRowState</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iShip_dt" xml:space="preserve">
+    <value>iShip_dt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iShip_to_name" xml:space="preserve">
+    <value>iShip_to_name</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iShip_to_state" xml:space="preserve">
+    <value>iShip_to_state</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iSlspsn_name" xml:space="preserve">
+    <value>iSlspsn_name</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iSlspsn_number" xml:space="preserve">
+    <value>iSlspsn_number</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iSs12" xml:space="preserve">
+    <value>iSS12</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iTotalSalesAmt" xml:space="preserve">
+    <value>itotalsalesamt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="SP_spARGetCommissionReport_MAZ" xml:space="preserve">
+    <value>spARGetCommissionReport_MAZ</value>
+    <comment>Stored Procedure loads commissions into the ARCOMWRK_MAZ work table</comment>
+  </data>
+  <data name="SP_spARSaveCommission_MAZ" xml:space="preserve">
+    <value>spARSaveCommission_MAZ</value>
+    <comment>Stored Procedure Saves commission by Insert or Update based on iRowState value, 'Added' or 'Modified'</comment>
+  </data>
+  <data name="Param_iDraftName" xml:space="preserve">
+    <value>iDraftName</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="SP_spARSaveFinalDraftCommission_MAZ" xml:space="preserve">
+    <value>spARSaveFinalDraftCommission_MAZ</value>
+    <comment>Stored Procedure Saves commission by as File Name with Insert or Update based on iRowState value, 'Added' or 'Modified'</comment>
+  </data>
+  <data name="SP_spARSaveFinalDraftHdr_MAZ" xml:space="preserve">
+    <value>spARSaveFinalDraftHdr_MAZ</value>
+    <comment>Stored Procedure Saves File Name and FileNameID for CommissionSaveAs commission by Insert or Update based on iRowState value, 'Added' or 'Modified'</comment>
+  </data>
+  <data name="Param_iDraftID" xml:space="preserve">
+    <value>iDraftID</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iUserDate" xml:space="preserve">
+    <value>iUser_dt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iUserName" xml:space="preserve">
+    <value>iUser_name</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_odraftid" xml:space="preserve">
+    <value>odraftid</value>
+    <comment>OUT Param:</comment>
+  </data>
+  <data name="SP_spARGetCommHeaderList" xml:space="preserve">
+    <value>spARGetCommHeaderList</value>
+    <comment>Stored Procedure retrieves the Draft or Final Commission Header List by payment date and Draft or Final Parameter</comment>
+  </data>
+  <data name="Param_iDraftOrFinal" xml:space="preserve">
+    <value>iDraftOrFinal</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_icommdraftid" xml:space="preserve">
+    <value>icommdraftid</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_imodified" xml:space="preserve">
+    <value>imodified</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_icommdraftid_deleted" xml:space="preserve">
+    <value>icommdraftid_deleted</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iMisc_amt" xml:space="preserve">
+    <value>iMisc_amt</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iord_no" xml:space="preserve">
+    <value>iord_no</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iorderno" xml:space="preserve">
+    <value>iorderno</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="SP_spOEGetOrderCommissionReport_MAZ" xml:space="preserve">
+    <value>spOEGetOrderCommissionReport_MAZ</value>
+    <comment>Stored Procedure Gets Unposted Order info to add to new record in the datagridview</comment>
+  </data>
+  <data name="Param_ivalid_comm" xml:space="preserve">
+    <value>ivalid_comm</value>
+    <comment>IN Param:</comment>
+  </data>
+  <data name="Param_iUSAorCAN" xml:space="preserve">
+    <value>iUSAorCAN</value>
+    <comment>IN Param:</comment>
+  </data>
+</root>

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5141C060-E5B7-484A-A872-B57624BE422E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MassarelliCommissionReport.My.MyApplication</StartupObject>
+    <RootNamespace>MassarelliCommissionReport</RootNamespace>
+    <AssemblyName>MassarelliCommissionReport</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Resources\MassarelliIcon_Commission4848_B.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionInfer>On</OptionInfer>
+    <PublishUrl>http://localhost/MassarelliCommissionReport/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MassarelliCommissionReport.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MassarelliCommissionReport.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>MassarelliCommissionReport.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\MassarelliCommissionReport.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>MassarelliCommissionReport.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\MassarelliCommissionReport.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="BOCommissionReport" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ARCOMWRK_MAZ.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ARCOMWRK_MAZ.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ARCOMWRK_MAZ.vb">
+      <DependentUpon>ARCOMWRK_MAZ.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CommissionDataNEW.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommissionDataNEW.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CommissionDataNEW.vb">
+      <DependentUpon>CommissionDataNEW.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CommissionRpt.Designer.vb">
+      <DependentUpon>CommissionRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CommissionRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomData.vb" />
+    <Compile Include="MacolaStartup.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OpenComm.Designer.vb">
+      <DependentUpon>OpenComm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpenComm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveAs.Designer.vb">
+      <DependentUpon>SaveAs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SaveAs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveAsPassword.Designer.vb">
+      <DependentUpon>SaveAsPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SaveAsPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.vb">
+      <DependentUpon>Search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripleDES.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CommissionRpt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommissionRpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenComm.resx">
+      <DependentUpon>OpenComm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveAs.resx">
+      <DependentUpon>SaveAs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveAsPassword.resx">
+      <DependentUpon>SaveAsPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app1.config" />
+    <None Include="ARCOMWRK_MAZ.xsc">
+      <DependentUpon>ARCOMWRK_MAZ.xsd</DependentUpon>
+    </None>
+    <None Include="ARCOMWRK_MAZ.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ARCOMWRK_MAZ.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ARCOMWRK_MAZ.xss">
+      <DependentUpon>ARCOMWRK_MAZ.xsd</DependentUpon>
+    </None>
+    <None Include="CommissionDataNEW.xsc">
+      <DependentUpon>CommissionDataNEW.xsd</DependentUpon>
+    </None>
+    <None Include="CommissionDataNEW.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CommissionDataNEW.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="CommissionDataNEW.xss">
+      <DependentUpon>CommissionDataNEW.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\BOCommissionReport.CommissionList.datasource" />
+    <None Include="My Project\DataSources\BOCommissionReport.CommissionObj.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BOCommissionReport\BOCommissionReport.vbproj">
+      <Project>{D796D7E0-FD46-4638-8874-5638C0E3FA3D}</Project>
+      <Name>BOCommissionReport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Macola.ico" />
+    <None Include="Resources\MassarelliIcon_Commission4848_B.ico" />
+    <None Include="Resources\ToggleXMark2424ico.ico" />
+    <None Include="Resources\ToggleXMark1616.ico" />
+    <None Include="Resources\Sort1616.ico" />
+    <None Include="Resources\Cancel3232.ico" />
+    <None Include="Resources\Save3232.ico" />
+    <None Include="Resources\InsertName.ico" />
+    <None Include="Resources\ReCalculateCommission.ico" />
+    <None Include="Resources\LookupOrder323203.ico" />
+    <None Include="Resources\LookupOrder323202.ico" />
+    <None Include="Resources\LookupOrder3232.ico" />
+    <None Include="Resources\UpdateCommission01.ico" />
+    <None Include="Resources\Excel3232.ico" />
+    <None Include="Resources\DupeChedk3232.ico" />
+    <None Include="Resources\Find3232.ico" />
+    <None Include="Resources\RemoveRow03.ico" />
+    <None Include="Resources\RemoveRow.ico" />
+    <None Include="Resources\AddRow10.ico" />
+    <None Include="Resources\AddRow11.ico" />
+    <None Include="Resources\AddRow12.ico" />
+    <None Include="Resources\AddRow13.ico" />
+    <None Include="Resources\ArrowCurveDownRight2424.ico" />
+    <Content Include="Resources\CAFlag4.ico" />
+    <None Include="Resources\SaveFinal02.ico" />
+    <None Include="Resources\SaveDraft02.ico" />
+    <None Include="Resources\SaveDraft.ico" />
+    <None Include="Resources\TrashBin3232.ico" />
+    <None Include="Resources\folder_action_open3232.ico" />
+    <None Include="Resources\folder_action_open2424ico.ico" />
+    <None Include="Resources\folder_action_open20201.ico" />
+    <None Include="Resources\folder_action_open2020.ico" />
+    <None Include="Resources\folder_action_open.ico" />
+    <None Include="Resources\folder-open.bmp" />
+    <None Include="Resources\USFlag41.ico" />
+    <None Include="Resources\USFlag4.ico" />
+    <None Include="Resources\CAFlag41.ico" />
+    <None Include="Resources\CAFlag3.ico" />
+    <None Include="Resources\USFlag21.ico" />
+    <None Include="Resources\USFlag2.ico" />
+    <None Include="Resources\USFlag1.ico" />
+    <None Include="Resources\USFlag.ico" />
+    <None Include="Resources\RedDot.ico" />
+    <None Include="Resources\proceed.ico" />
+    <None Include="Resources\Gear2.ico" />
+    <None Include="Resources\GetData.ico" />
+    <None Include="Resources\ClearGrid_05.ico" />
+    <None Include="Resources\Switchview.ico" />
+    <None Include="Resources\view_columns.ico" />
+    <None Include="Resources\Search 16x16.ico" />
+    <None Include="Resources\Delete X 1818.ico" />
+    <None Include="Resources\Delete X 1616.ico" />
+    <None Include="Resources\Paste2.ico" />
+    <None Include="Resources\Copy2.ico" />
+    <None Include="Resources\DeleteRow.ico" />
+    <None Include="Resources\ClearGrid_03.ico" />
+    <None Include="Resources\LoadAllItems02.ico" />
+    <None Include="Resources\GetData2.ico" />
+    <None Include="Resources\LoadAllItems.ico" />
+    <None Include="Resources\OpenCommission_031616.ico" />
+    <None Include="My Project\DataSources\BOCommissionReport.DraftCommissionHdrList.datasource" />
+    <None Include="My Project\DataSources\BOCommissionReport.DraftCommissionHdrObj.datasource" />
+    <None Include="Resources\OpenCommission_02.ico" />
+    <None Include="Resources\OpenCommission.ico" />
+    <None Include="Resources\ArrowUpCurved.ico" />
+    <None Include="Resources\open_node.ico" />
+    <None Include="Resources\Save2.ico" />
+    <None Include="Resources\SaveAs.ico" />
+    <None Include="Resources\Save1.ico" />
+    <None Include="Resources\ClearGrid.ico" />
+    <None Include="Resources\Excel.ico" />
+    <None Include="Resources\save_as.ico" />
+    <None Include="Resources\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel1">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
