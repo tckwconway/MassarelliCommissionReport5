@@ -6,9 +6,7 @@ Module MacolaStartup
     Friend cn As SqlConnection
     Friend cno As OleDbConnection
     Public Sub MacStartup(ByVal db As String)
-        '        cn = New SqlConnection(My.Settings.DATA999ConnectionString)
-        'cn = New SqlConnection(My.Settings.DATA999ConnectionString)
-        'cn = New SqlConnection(My.Settings.DATAMASSConnection)
+
         Try
             cn.Close()
         Catch ex As Exception
@@ -30,8 +28,6 @@ Module MacolaStartup
         '    cn = New SqlConnection(My.Settings.DATAConnectionString)
         'End If
 
-
-        'cn = New SqlConnection(My.Settings.DATA_TCOPTIPLEX)
         Try
             cn.Open()
         Catch ex As Exception

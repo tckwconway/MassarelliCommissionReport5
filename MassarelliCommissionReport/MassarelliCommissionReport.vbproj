@@ -254,7 +254,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Macola.ico" />
     <None Include="Resources\MassarelliIcon_Commission4848_B.ico" />
     <None Include="Resources\ToggleXMark2424ico.ico" />
     <None Include="Resources\ToggleXMark1616.ico" />
